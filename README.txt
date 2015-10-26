@@ -1,5 +1,5 @@
 #########################################################
-#About													#
+#About
 #########################################################
 
 WoidMill - Controller is a free web-based controlling software for any GRBL based CNC mills and equivalent CNC hardware
@@ -23,7 +23,7 @@ If you would like to include this code in a project which is not licensed under 
 
 
 #########################################################
-#Raspberry Pi - SD Card Image							#
+#Raspberry Pi - SD Card Image			
 #########################################################
 
 There is a prebuilt Rasbian image with WoidMill - Controller already running on it at port 80 for 115200 baud GRBL devices.  More information and a link to the .img can be found at http://www.michaelwuehr.de
@@ -35,7 +35,7 @@ password: grod_schee_is
 
 
 #########################################################
-#GRBL baud rate settings								#
+#GRBL baud rate settings
 #########################################################
 
 GRBL .9 uses 115200 baud rate while previous versions use 9600.
@@ -45,7 +45,7 @@ if you are using previous versions of GRBL, change config.serialBaudRate to 9600
 
 
 #########################################################
-#Installation - without SD Card Image					#
+#Installation - without SD Card Image	
 #########################################################
 
 // Step 1:
@@ -60,7 +60,7 @@ Set config.usettyAMA0 to 1 in config.js
 
 
 #########################################################
-#Configuration 											#
+#Configuration
 #########################################################
 
 // optional:
@@ -69,7 +69,7 @@ edit config.js to change serial baud rate and web port
 
 
 #########################################################
-#Starting Server										#
+#Starting Server	
 #########################################################
 
 // standalone
@@ -83,7 +83,7 @@ forever start server.js
 
 
 #########################################################
-#Access WoidMill - Controller							#
+#Access WoidMill - Controller	
 #########################################################
 
 The default port in config.js is 80, you can change it by editing the file.
@@ -93,7 +93,7 @@ http://hostaddress:80/
 
 
 #########################################################
-#More about GRBL										#
+#More about GRBL	
 #########################################################
 
 https://github.com/grbl/grbl
