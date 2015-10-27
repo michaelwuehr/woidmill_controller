@@ -51,11 +51,11 @@ if you are using previous versions of GRBL, change config.serialBaudRate to 9600
 
 // Step 1:
 
-install precompiled node.js on Raspberry Pi
+install precompiled node.js v0.10.28 on Raspberry Pi
 
 ```
 cd /opt
-sudo wget http://nodejs.org/distv0.10.28/node-v0.10.28-linux-arm-pi.tar.gz
+sudo wget http://nodejs.org/dist/v0.10.28/node-v0.10.28-linux-arm-pi.tar.gz
 ```
 
 extract packages and remove packed ones
@@ -96,6 +96,7 @@ git clone https://github.com/michaelwuehr/woidmill_controller.git
 install woidmill_controller
 
 ```
+cd woidmill_controller
 npm install
 ```
 
@@ -139,7 +140,7 @@ forever start server.js
 ```
 
 #########################################################
-#Starting Server automatically at startup	
+#Starting Server automatically at start-up	
 #########################################################
 
 // Step 1:
