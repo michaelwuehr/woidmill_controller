@@ -30,6 +30,7 @@ There is a prebuilt Rasbian image with WoidMill - Controller already running on 
 The ethernet interface will get a DHCP address that you can ssh to.
 
 username: pi
+
 password: woidmill
 
 
@@ -212,17 +213,10 @@ fill file with following:
 #                  
 ### END INIT INFO
 
-# Author: Foo Bar <foobar@baz.org>
-#
-# Please remove the "Author" lines above and replace them
-# with your own name if you copy and modify this script.
-
-# Do NOT "set -e"
-
 # PATH should only include /usr/* if it runs after the mountnfs.sh script
 PATH=/sbin:/usr/sbin:/bin:/usr/bin:/usr/local/bin
 NAME=node
-DAEMON=/usr/local/bin/node-run
+DAEMON=/opt/node/bin/node-run
 PIDFILE=/var/run/$NAME.pid
 DAEMON_ARGS=$PIDFILE
 SCRIPTNAME=/etc/init.d/$NAME
