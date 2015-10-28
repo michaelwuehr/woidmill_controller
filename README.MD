@@ -129,6 +129,7 @@ edit config.js to change serial baud rate and web port
 // standalone
 
 ```
+cd /home/pi/woidmill_controller
 node server.js
 ```
 
@@ -136,6 +137,7 @@ node server.js
 
 ```
 npm install -g forever
+cd /home/pi/woidmill_controller
 forever start server.js
 ```
 
