@@ -374,8 +374,7 @@ http://hostaddress:80/
 
 https://github.com/grbl/grbl
 
-https://github.com/grbl/grbl/wiki/Configuring-Grbl-v0.8
+https://github.com/grbl/grbl/wiki/Configuring-Grbl-v0.9
 
-http://onehossshay.wordpress.com/2011/08/21/grbl-how-it-works-and-other-thoughts/
 
 
